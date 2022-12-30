@@ -7,7 +7,9 @@ import './main.css';
 
 ReactDOM.render(
   <AppContainer>
+  <HasRouter>
   <App />
+  </HasRouter>
   </AppContainer>,
   document.getElementById('app')
 );
