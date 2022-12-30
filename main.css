@@ -427,19 +427,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .static {
   position: static;
 }
-.fixed {
-  position: fixed;
-}
-.relative {
-  position: relative;
-}
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-.mb-0 {
-  margin-bottom: 0px;
-}
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
