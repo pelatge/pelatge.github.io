@@ -1,5 +1,6 @@
 {
   "name": "pelatge.github.io",
+  "homepage":"pelatge.github.io/pelatge.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +8,9 @@
     "clean": "rm -rf ./dist",
     "start": "webpack serve --hot --mode development ",
     "dev": "webpack  --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +24,7 @@
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.1.0",
     "css-loader": "^6.6.0",
+    "gh-pages": "^4.0.0",
     "html-loader": "^3.1.0",
     "html-webpack-injector": "^1.1.4",
     "html-webpack-plugin": "^5.5.0",
