@@ -17,7 +17,7 @@ const appRoutes = [
   {
   	name:"home",
   	exact:true,
-    path: "/",
+    path: "/pelatge.github.io",
     element: <Home/>,
   }
 ];
