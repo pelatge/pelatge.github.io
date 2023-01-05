@@ -1,10 +1,18 @@
 module.exports = {
- content: [
- 	'./src/**/*.{html,js,jsx,ts}',
-    './dist/index.html'
+  content: [
+  'index.html',
   ],
+  darkMode: 'class',
   theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+    container: {
+      center: true,
+      padding: '16px',
+    },
+    extend: {
+      },
+    },
+  plugins: [
+   // include Flowbite as a plugin in your Tailwind CSS project
+   // require('flowbite/plugin')
+  ],
+};
