@@ -6,12 +6,15 @@
   "main": "index.js",
   "scripts": {
     "tail": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "minify":"",
+    "deploy":"gh-pages -d . ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.8",
     "tailwindcss": "^3.0.23"
