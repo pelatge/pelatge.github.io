@@ -1,0 +1,25 @@
+{
+  "name": "pelatge.github.io",
+  "homepage": "http://pelatge.github.io/pelatge.github.io/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tail": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "minify":"",
+    "deploy":"gh-pages -d . ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.0"
+  }
+}
